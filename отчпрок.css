@@ -1,0 +1,146 @@
+header {
+	border: 1px solid black;
+	grid-area: myheader;
+}
+main {
+	border: 1px solid black;
+	grid-area: mymain;
+	padding: 5%;
+}
+footer {
+	border: 1px solid black;
+	grid-area: myfooter;
+}
+nav {
+	border: 1px solid black;
+	grid-area: mynav;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.animated-button {
+	padding: 15px 30px;
+	font-size: 16px;
+	color: white;
+	background-color: #007bff;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: transform 0.2s, background-color 0.3s;
+}
+
+.animated-button:hover {
+	background-color: #0056b3;
+	transform: scale(1.1);
+}
+
+.animated-button:active {
+	transform: scale(0.95);
+}
+
+aside {
+	border: 1px solid black;
+	grid-area: myaside;
+	display: grid;
+	grid-template-columns: 80%;
+	grid-template-rows: 1fr 1fr 1fr;
+	gap: 10px;
+	align-items: center;
+}
+.qq {
+	top: 10px;
+
+	border: 1px solid gray;
+	margin-left: 20%;
+	height: 20vh;
+	background-image: url(5_Power_Hot.jpg);
+	background-size: 100% 100%;
+}
+.qqq {
+	top: 50px;
+	border: 1px solid gray;
+	margin-left: 20%;
+	height: 20vh;
+	background-image: url(casino-poster-advertising-poker-dice-bowling-gambling-domino-others-casino-games-placard-template_80590-4893.avif);
+	background-size: 100% 100%;
+}
+.qqqq {
+	top: 90px;
+	border: 1px solid gray;
+	margin-left: 20%;
+	height: 20vh;
+	background-image: url(cf5569cd-f32a-40f6-90ad-cbde1c121872.webp);
+	background-size: 100% 100%;
+}
+
+body {
+	width: 95%;
+	height: 150vh;
+	background-color: azure;
+	display: grid;
+	grid-template-areas:
+		"myheader myheader myheader"
+		"mynav mymain myaside"
+		"myfooter myfooter myfooter";
+	grid-template-rows: 1fr 10fr 1fr;
+	grid-template-columns: 1fr 5fr 1fr;
+	gap: 10px;
+}
+.qwe {
+	width: 80%;
+	height: 45.9vh;
+	margin: 10%;
+	color: aqua;
+	top: 10px;
+
+	display: grid;
+	margin-top: 70%;
+}
+.ert {
+	width: 100%;
+}
+.chop {
+	width: 100%;
+	height: 100%;
+	color: white;
+	background-color: #007bff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 24px;
+	font-weight: bold;
+	border-radius: 50px;
+}
+.nbv {
+	text-align: center;
+}
+.social {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+}
+.aa {
+	width: 30px;
+}
+
+@media (max-width: 1400px) {
+	body {
+		display: none;
+	}
+}
+.bodymoble {
+	display: none;
+}
+
+@media (max-width: 768px) {
+	#bodedesktop {
+		display: none;
+	}
+}
+.bodyMobile {
+	display: flex;
+	height: 60px;
+	align-items: center;
+	justify-content: center;
+}
